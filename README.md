@@ -27,7 +27,7 @@ Console app 으로, 어릴 때 많이 해 본 숫자 야구게임을 컴퓨터�
 
 ### Flow Chart
 
-<img src="/Users/leeyoungwoo/Desktop/스크린샷 2021-09-10 오전 11.03.03.png" alt="스크린샷 2021-09-10 오전 11.03.03" style="zoom:33%;" />
+<img width="407" alt="스크린샷 2021-09-10 오전 11 03 03" src="https://user-images.githubusercontent.com/64566207/132792900-9407fb58-71f6-498f-906b-277e3bd7ce86.png">
 
 <br>
 
@@ -37,11 +37,11 @@ Console app 으로, 어릴 때 많이 해 본 숫자 야구게임을 컴퓨터�
 
 시작 화면 -> 숫자 입력 -> 중복 숫자 입력 -> 입력이 잘못되었습니다
 
-![Sep-10-2021 11-11-33](/Users/leeyoungwoo/Documents/Sep-10-2021 11-11-33.gif)
+![Sep-10-2021 11-11-33](https://user-images.githubusercontent.com/64566207/132792936-81556bdf-d2da-4b4f-bc6d-da9ba2011ed7.gif)
 
 숫자 입력 -> 성공 여부 판정 -> 성공
 
-![Sep-10-2021 11-11-39](/Users/leeyoungwoo/Documents/Sep-10-2021 11-11-39.gif)
+![Sep-10-2021 11-11-39](https://user-images.githubusercontent.com/64566207/132792958-fbb00fa4-8467-4ab2-842e-1bdbd2e0f27c.gif)
 
 
 
