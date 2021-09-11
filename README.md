@@ -21,7 +21,7 @@ Console app 으로, 어릴 때 많이 해 본 숫자 야구게임을 컴퓨터�
 - 공식문서에서 사용되는 들여쓰기 기준
 - 가독성있게 코드를 작성하는 방법
 
-
+<br>
 
 <br>
 
@@ -49,9 +49,51 @@ Console app 으로, 어릴 때 많이 해 본 숫자 야구게임을 컴퓨터�
 
 <br>
 
+
+
+### 프로젝트 진행 일정 기록
+
+- **2021.02.23 (화)**
+
+  화요일에는 Git에 대해 익숙하지 않던터라 Git 사용법을 중심으로 학습
+  저녁에는 코드의 동작순서가 잘 보이게끔 코드의 청사진을 작성
+  (함수의 구체적인 구현 X, API Design Guideline을 정독하며 함수명과 변수명 짓기 O)
+
+- **2021.02.24 (수)**
+
+  Step1 구현 완료. Step1에서 구현해야하는 함수들을 전부 네이밍을 고심하여 구현한 뒤 첫 PR을 보냄
+
+- **2021.02.25 (목)**
+
+  Step2로 넘어와 작업을 시작. 밤의 피드백을 바탕으로 개선할 점들을 개선
+  Subscript를 통한 접근시에 위험할 수 있다는 피드백을 받고 같이 Subscript에 대해 학습함
+  Set을 사용하여 judge함수에서 구현한 이중 for문을 단일 for문으로 변경함
+  이날 저녁에 Step2의 PR을 보냄
+
+- **2021.02.26 (금)**
+
+  밤이 보내준 피드백을 바탕으로 몇가지 오류를 수정하고 코드 간결성을 개선 (Step2 2차 PR 보냄)
+  모나드에 대해 학습하기로 했으나, 클로저부터 학습함
+
+
+
+<br>
+
+<br>
+
+
+
 ## 학습 내용 기록
 
+### Pull Request를 통한 [밤](https://github.com/hcooch2ch3)의 리뷰
 
+[Step1 리뷰](https://github.com/yagom-academy/ios-number-baseball/pull/7)
+
+[Step2 리뷰](https://github.com/yagom-academy/ios-number-baseball/pull/13)
+
+<br>
+
+<br>
 
 ### git 사용 방법에 대한 학습
 
@@ -63,6 +105,8 @@ Console app 으로, 어릴 때 많이 해 본 숫자 야구게임을 컴퓨터�
 - [git commit message 작성 규칙 정하기](https://velog.io/@leeyoungwoozz/?q=git)
 
 
+
+<br>
 
 <br>
 
@@ -117,7 +161,7 @@ func parse(_ source: String) throws -> XMLDoc {
 
 와 같이 `struct` 타입으로 정의를 하여서 인스턴스 프로퍼티를 통해 나타낸다!
 
-
+<br>
 
 <br>
 
@@ -156,7 +200,7 @@ func makeRandomNumber() throws -> [Int] {
 
 중복 값을 허용하지 않는다는 특징을 활용하여서 random 숫자 3개를 중복되지 않게 생성하였다
 
-
+<br>
 
 <br>
 
@@ -186,7 +230,7 @@ var remainingChallengeOpportunity: Int = 9
 
 <br>
 
-
+<br>
 
 ### 각 기능별 함수로 모듈화
 
